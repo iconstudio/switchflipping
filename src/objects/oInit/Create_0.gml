@@ -4,4 +4,14 @@
 
 #macro GAME_TAP_COUNT_GENERAL 1000
 
+global.stage = 0
+
+enum DIFFICULTY {
+	NONE = -1,
+	EASY,
+	MEDIUM,
+	HARD
+}
+global.difficult = DIFFICULTY.NONE
+
 alarm[0] = 1
